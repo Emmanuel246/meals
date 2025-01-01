@@ -1,6 +1,6 @@
 # meals
 
-A new Flutter project.
+A flutter project to create an app for meals by learningthrough udemy.
 
 ## Getting Started
 
