@@ -17,15 +17,15 @@ class _FiltersScreenState extends State<FiltersScreen> {
       appBar: AppBar(
         title: const Text('Your filters'),
       ),
-      drawer: MainDrawer(
-        onSelectScreen: (identifier) {
-          Navigator.of(context).pop();
-          if (identifier == 'meals') {
-            Navigator.of(context)
-                .push(MaterialPageRoute(builder: (ctx) => const TabsScreen()));
-          }
-        },
-      ),
+      // drawer: MainDrawer(
+      //   onSelectScreen: (identifier) {
+      //     Navigator.of(context).pop();
+      //     if (identifier == 'meals') {
+      //       Navigator.of(context)
+      //           .push(MaterialPageRoute(builder: (ctx) => const TabsScreen()));
+      //     }
+      //   },
+      // ),
       body: Column(
         children: [
           SwitchListTile(
